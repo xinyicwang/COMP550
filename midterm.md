@@ -1,0 +1,47 @@
+> [Course website](https://www.cs.mcgill.ca/~jcheung/teaching/fall-2019/comp550/index.html#home)
+
+### Terms and concepts
+- semantics: literal meaning
+- pragmatics: implied meaning
+- discourse: passage structure
+- syntax: sentence structure
+- phonology: sound patterns
+- phonetics: speech sounds
+- morphology: word structure
+- supervised: model has access to input and corresponding output data
+  - classification problem: spam or non-spam
+  - predict part of speech of a word (verb, noun, determiner, etc.)
+- unsupervised: model only has input data
+- supervised learning: determine what the function f(x) should be given the data
+  - find parameters to the model that minimize loss/error function
+  - minimize incorrectly classified results
+- unsupervised learning: come up with a good characterization of the data
+  - clustering: hidden structure in the data without any labels (e.g. grammar induction, learning word relatedness)
+- semi-supervised learning: model has outputs for some of the inputs
+- regression: output is a continuous outcome
+- classification: output is a discrete outcome (linguistic units of interest are often discrete)
+- feature extraction
+  - lemma: remove inflectional morphology and recover lemma (e.g. foxes -> fox), and lemmatization is done through FSA
+  - stemming: cut affixes off to find the stem (e.g. airliner -> airlin)
+  - n-gram
+  - POS tags
+  - stop words
+- type: the identity of a word (e.g. count unique words)
+- token: an instance of a word (e.g. each occurrence is separate)
+- generative: model learns a distribution for all of the random variables involved: joint distribution
+- discriminative: models directly parametrize and learn the conditional distribution
+- linear models:
+  - naive bayes classification
+  - logistic regression
+  - support vector machine
+  - perceptron (closely related to logistic regression)
+- non-linear models:
+  - neural network
+    - feedforward
+- loss function
+- softmax layer
+- gradient descent
+- precision
+- recall
+- Zipf's law
+- 
