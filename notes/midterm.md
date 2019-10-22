@@ -1,0 +1,121 @@
+> [Course website](https://www.cs.mcgill.ca/~jcheung/teaching/fall-2019/comp550/index.html#home)
+
+### Terms and concepts
+- semantics: literal meaning
+- pragmatics: implied meaning
+- discourse: passage structure
+- syntax: sentence structure
+- phonology: sound patterns
+- phonetics: speech sounds
+- morphology: word structure
+- supervised: model has access to input and corresponding output data
+  - classification problem: spam or non-spam
+  - predict part of speech of a word (verb, noun, determiner, etc.)
+- unsupervised: model only has input data
+- supervised learning: determine what the function f(x) should be given the data
+  - find parameters to the model that minimize loss/error function
+  - minimize incorrectly classified results
+- unsupervised learning: come up with a good characterization of the data
+  - clustering: hidden structure in the data without any labels (e.g. grammar induction, learning word relatedness)
+- semi-supervised learning: model has outputs for some of the inputs
+- regression: output is a continuous outcome
+- classification: output is a discrete outcome (linguistic units of interest are often discrete)
+- feature extraction
+  - lemma: remove inflectional morphology and recover lemma (e.g. foxes -> fox), and lemmatization is done through FSA
+  - stemming: cut affixes off to find the stem (e.g. airliner -> airlin)
+  - n-gram
+  - POS tags
+  - stop words
+- type: the identity of a word (e.g. count unique words)
+- token: an instance of a word (e.g. each occurrence is separate)
+- generative: model learns a distribution for all of the random variables involved: joint distribution
+- discriminative: models directly parametrize and learn the conditional distribution
+- linear models:
+  - naive bayes classification
+  - logistic regression
+  - support vector machine
+  - perceptron (closely related to logistic regression)
+- non-linear models:
+  - neural network
+    - feedforward
+- loss function
+- softmax layer
+- gradient descent
+- precision
+- recall
+- Zipf's law, long tail
+- entropy vs cross entropy - whether we know the probability distribution
+- perplexity
+- maximum likelihood estimates (MLE)
+- overfitting
+- OOV items
+- smoothing
+  - MAP estimation
+  - add-one
+  - interpolation
+  - good-Turing
+- development / validation set
+- POS: a syntactic category that gives information of grammatical properties of a word
+  - nouns, verbs, adjectives, prepositions, adverbs, determiners
+  - modals and auxiliary verbs (can, will, Did...?, might, should, ought)
+  - conjunctions (and, or, but, yet)
+  - particles (up, down)
+- open class vs closed class
+- Markov chains
+- sequence labelling:
+  - name-entity recognition
+  - POS tagging
+  - chunking
+- HMM
+  - forward
+  - backward
+  - Viterbi
+  - Baum-Welch as expectation maximization
+- LC-CRF
+- IOB tagging: label whether a word is inside, outside, or at the beginning of the span
+- RNN
+  - LSTM, BiLSTM
+  - LSTM-CRF
+- constituency
+  - grammatical relations
+    - dependency relation
+  - subcategorization
+- CFG
+- undergeneration vs overgeneration
+- cross-serial dependencies
+- syntactic ambiguity
+- parsing
+  - top-down: early parser
+  - bottom-up: CYK
+- Chomsky Normal Form (CNF)
+- Probabilistic CFG (PCFG)
+  - vanilla PCFG (independence assumption can be too strong / weak)
+- sparsity
+- lexical semantics relations
+  - hypernymy / hyponymy
+  - synonymy
+  - antonymy
+  - homonymy
+  - polysemy
+  - metonymy
+  - synecdoche
+  - holonymy / meronymy
+- WordNet: a lexical resource organized by synsets
+- Lesk's algorithm
+- Yarowsky's algorithm
+- Hearst patterns
+- distributional semantics
+  - pointwise mutual information (PMI)
+  - singular value decomposition (SVD)
+  - word2vec
+- compositionality
+  - violation: idiom, co-compositionality
+- first-order predicate calculus
+  - domain of discourse
+  - variables
+  - predicate
+  - function
+  - logical connective
+  - quantifiers
+- first-order logic (FOL)
+- 
