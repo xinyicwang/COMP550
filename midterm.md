@@ -43,5 +43,68 @@
 - gradient descent
 - precision
 - recall
-- Zipf's law
-- 
+- Zipf's law, long tail
+- entropy vs cross entropy - whether we know the probability distribution
+- perplexity
+- maximum likelihood estimates (MLE)
+- overfitting
+- OOV items
+- smoothing
+  - MAP estimation
+  - add-one
+  - interpolation
+  - good-Turing
+- development / validation set
+- POS: a syntactic category that gives information of grammatical properties of a word
+  - nouns, verbs, adjectives, prepositions, adverbs, determiners
+  - modals and auxiliary verbs (can, will, Did...?, might, should, ought)
+  - conjunctions (and, or, but, yet)
+  - particles (up, down)
+- open class vs closed class
+- Markov chains
+- sequence labelling:
+  - name-entity recognition
+  - POS tagging
+  - chunking
+- HMM
+  - forward
+  - backward
+  - Viterbi
+  - Baum-Welch as expectation maximization
+- LC-CRF
+- IOB tagging: label whether a word is inside, outside, or at the beginning of the span
+- RNN
+  - LSTM, BiLSTM
+  - LSTM-CRF
+- constituency
+  - grammatical relations
+    - dependency relation
+  - subcategorization
+- CFG
+- undergeneration vs overgeneration
+- cross-serial dependencies
+- syntactic ambiguity
+- parsing
+  - top-down: early parser
+  - bottom-up: CYK
+- Chomsky Normal Form (CNF)
+- Probabilistic CFG (PCFG)
+  - vanilla PCFG (independence assumption can be too strong / weak)
+- sparsity
+- lexical semantics relations
+  - hypernymy / hyponymy
+  - synonymy
+  - antonymy
+  - homonymy
+  - polysemy
+  - metonymy
+  - synecdoche
+  - holonymy / meronymy
+- WordNet: a lexical resource organized by synsets
+- Lesk's algorithm
+- Yarowsky's algorithm
+- Hearst patterns
+- distributional semantics
+  - pointwise mutual information (PMI)
+  - singular value decomposition (SVD)
+  - word2vec
