@@ -118,4 +118,11 @@
   - logical connective
   - quantifiers
 - first-order logic (FOL)
-- 
+- meaning of reference (MR)
+- syntax-driven semantic composition
+  - proper vs common nouns 
+  - intransitive vs transitive verbs
+- event variable
+- quantifier
+  - universal vs existential 
+  - definite description (satisfy 3 conditions)
